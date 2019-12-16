@@ -1,0 +1,49 @@
+body {
+    background-color: #dfecd5;
+}
+h1 {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 36px;
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 700;*/
+    /*line-height: 26.4px;*/
+}
+h2 {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20.4px;
+    text-align: left;
+    margin-top: 50px;
+}
+h3 {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20.4px;
+    text-align: left;
+    margin-top: 80px;
+}
+p {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+ol {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}

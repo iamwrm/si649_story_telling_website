@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Forest Fire Visualization</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div style="width: 80%; background-color:white; opacity: 0.9; margin: auto; padding: 2%; position:relative; text-align: center;">
+            <h1>What Fires the Forests? </h1>
+            <div style=" text-align: left;">
+                <p>
+                    Forest fires have a significant and profound influence on the ecology of one place.
+                    It would also cause great economic loss and even threaten people's safety.
+                    An analysis of the potential factors of forest fire may help us to control and prevent it in the future.
+                    The goal of the following visualizations is to present how location, time, and some attributes of the trees are related to the break out of a forest fire.
+                    Our database is the forest fire and tree cover record of the United States from 1992 to 2015.
+                </p>
+            </div>
+            <h2>Season & Region</h2>
+            <div style=" text-align: left;">
+                <p>
+                    Season possesses a strong influence on the number of forest fires.
+                    Overall, forest fire happens most frequently in March and July.
+                    In the summer time, especially from June to August, lightning always causes more forest fires due to the frequently visited thundershowers.
+                </p>
+                <p>
+                    In terms of geographical distribution, California, Georgia, and Texas are the 3 states with the most forest fires.
+                    If we draw closer to the geographic distribution,
+                    we will discover that the fire occurrences show different patterns in the east and the west of United States.
+                    In eastern US, the peak of forest fire occurs in March and the main cause is debris burning and arson.
+                    However, on the west coast of US, forest fires occur most frequently in July and the chief offender is lightning.
+                    Besides, there are also other factors that assist the forest fires, namely, temperature and moisture.
+                    Around the year, California collects most of its moisture in fall and winter times.
+                    In summer, the plants turn dry and the temperature is high.
+                    These two conditions increase the probability of forest fires.
+                </p>
+                <p style="color: grey;">Check the <button style="height:16px;border-width: 1px;border-color:lightgray; border-radius: 3px;background: white;"> </button>
+                    box before "East" or "West" under "<b>Geometry</b>" in the following graph to see the patterns.
+                    You can also explore the fire forest frequency pattern by selecting states, years and fire causes.</p>
+            </div>
+
+            <div class='tableauPlaceholder' id='viz1576023156992' style='width: 80%; margin: auto; position: relative'>
+                <noscript><a href='#'>
+                    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;FireDash1&#47;1_rss.png' style='border: none' /></a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='si649_p2_2&#47;FireDash1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;FireDash1&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1576023156992');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else { vizElement.style.width='100%';vizElement.style.height='1177px';}
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+
+            <h3>Tree Density</h3>
+            <div>
+                <p>
+                    One may think that tree density is an important factor that could determine the likelihood of a forest fire.
+                    We can select one or more types of trees in the following chart and see their distributed areas across the US
+                    to explore the relationship between tree types and their geographical growth conditions.
+                    Conversely, we can also select one or more states and see the types of trees growing in that area.
+                    This can help us determine which types of tree are likely to cause a fire.
+                </p>
+            </div>
+
+            <div class='tableauPlaceholder' id='viz1576038414944' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;TreeDash1&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='si649_p2_2&#47;TreeDash1' />
+                    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;TreeDash1&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1576038414944');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else { vizElement.style.width='100%';vizElement.style.height='827px';}
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+            <p>
+                On the whole, we plot the density of fires and trees in all US states to roughly estimate
+                any existence of similar patterns between tree density and fire occurrences.
+                In comparison, we could say that fire density does have some partial influence on forest fires.
+                Tree density could explain the high frequency of forest fires in southeast America
+                and the relatively low frequency in northwest America. However, tree density and fire density
+                appear to have opposite relationship on the west coast or in the northeast area.
+            </p>
+
+            <div style="width: 100%;position: relative;">
+                <img style="width: 80%;margin: auto;" alt=' ' src='compare.png' />
+            </div>
+
+            <p>
+                Moreover, we cannot even take the density distribution of a specific type of tree as indication
+                for forest fire indicator.
+                For example, if we select "California" in <i>US Tree Density Map</i>, we will find that
+                Douglas-fir, Ponderosa pine and lodgepone pine are the species with largest quantities within the state.
+                However, if we select the specific tree types, we will discover that California is not the states
+                with the most trees of this species.
+            </p>
+
+            <div style="width: 100%;position: relative;">
+                <img style="width: 80%;margin: auto;" alt=' ' src='example.png' />
+            </div>
+
+            <p>
+                Therefore, To properly explain the frequent emergence of forest fires on places such as the west coast,
+                we need to find other supportive evidence.
+            </p>
+
+            <h3>Tree Height</h3>
+            <div>
+                <p>
+                    After massive amount of experiments, we discover that tree height seems to have a more direct relationship with the occurrence of fires.
+                    To support this proposition, we compute the average height of trees in each state and rank the type of trees according to their average heights.
+                    We can select one or more types of trees in the following graph and see their distribution across the country.
+                </p>
+            </div>
+
+            <div class='tableauPlaceholder' id='viz1576023187132' style='margin: auto;position: relative'>
+                <noscript><a href='#'>
+                    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;TreeDash1update&#47;1_rss.png' style='border: none' /></a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='si649_p2_2&#47;TreeDash1update' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;si&#47;si649_p2_2&#47;TreeDash1update&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                </object></div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1576023187132');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                else { vizElement.style.width='100%';vizElement.style.height='827px';}
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+            <p>
+                Surprisingly, we can find that California takes over the top few species of trees.
+                The trees in the west is significant higher than the trees in the east, which makes them more possible to be struck by lightning and burn.
+            </p>
+
+            <h3>Conclusion</h3>
+            <p>
+                In this article, we discuss several potential attributes of trees that might affect the occurrence of forest fires.
+                We discover that while the density of trees could partially explain the problem,
+                forest fires also possess a strong relationship with the height of trees.
+                With this idea in mind, the next time when you happen to see some tall trees being cut in a national park,
+                please don't be too sad. This can actually help to preserve more trees.
+            </p>
+
+            <h3>Reference</h3>
+            <div>
+                <ol>
+                    <li>"Wildfire." <i>Wikipedia</i>, Wikimedia Foundation, 9 Dec. 2019, <a href="https://en.wikipedia.org/wiki/Wildfire">https://en.wikipedia.org/wiki/Wildfire</a>.</li>
+                    <li>"Forest Cover Type Dataset." <i>Kaggle</i>, 3 Nov. 2016, <a href="https://www.kaggle.com/uciml/forest-cover-type-dataset">https://www.kaggle.com/uciml/forest-cover-type-dataset</a>.</li>
+                    <li>"Why Does California Have So Many Wildfires?" <i>The New York Times.</i> <a href="https://www.nytimes.com/2018/11/09/climate/why-california-fires.html">https://www.nytimes.com/2018/11/09/climate/why-california-fires.html</a>.</li>
+                    <li>"1.88 Million US Wildfires." <i>Kaggle</i>, <a href="https://www.kaggle.com/rtatman/188-million-us-wildfires">https://www.kaggle.com/rtatman/188-million-us-wildfires</a>.</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
